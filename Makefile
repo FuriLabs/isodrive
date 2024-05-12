@@ -3,7 +3,7 @@ CFLAGS = -I./src/include
 SRCS = src/util.cpp src/configfsisomanager.cpp src/androidusbisomanager.cpp src/main.cpp
 OBJS = $(SRCS:.cpp=.o)
 TARGET = isodrive
-INSTALL_DIR = /usr/local/bin
+INSTALL_DIR = /usr/bin
 
 all: $(TARGET)
 

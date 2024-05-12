@@ -1,0 +1,14 @@
+Source: isodrive
+Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               build-essential,
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/furilabs/isodrive
+Vcs-Git: https://github.com/furilabs/isodrive.git
+
+Package: isodrive
+Architecture: any
+Depends: ${misc:Depends},
+Description: Use your mobile device to boot Linux distributions/ISO files on your PC
